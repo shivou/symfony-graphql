@@ -1,0 +1,13 @@
+type Director {
+    id: ID!
+    name: String!
+    dateOfBirth: String!
+    bio: String!
+    movies: [Movie!]!
+}
+
+input CreateDirector {
+    name: String!
+    dateOfBirth: String!
+    bio: String!
+}

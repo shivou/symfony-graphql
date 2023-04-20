@@ -1,0 +1,7 @@
+type RootQuery {
+    director(id: ID!): Director
+    directors: [Director!]!
+    findMoviesByDirector(name: String!) : [Movie!]!
+    movies: [Movie!]!
+    movie(id:ID!): Movie
+}

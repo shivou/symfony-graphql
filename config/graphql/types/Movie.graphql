@@ -1,0 +1,14 @@
+type Movie {
+    id: ID!
+    title: String!
+    director: Director!
+    plot: String!
+    released: String!
+}
+
+input UpdateMovie {
+    title: String!
+    director: ID
+    plot: String!
+    released: String!
+}

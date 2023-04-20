@@ -1,0 +1,4 @@
+type RootMutation {
+    createDirector(director: CreateDirector!): Director!
+    updateMovie(id: ID!, movie: UpdateMovie!): Movie!
+}
